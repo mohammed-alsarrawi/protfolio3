@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><span>Moha</span>mmed</a>
+        <nav class="navbar">
+            <a href="index.html" class="active">Home</a>
+            <a href="#skills">Skills</a>
+            <a href="proj.html">Projects</a>
+        </nav>
+        <a href="contact.html" class="contact">Contact Me</a>
+        <!-- Burger Menu Icon -->
+        <div class="burger-menu" onclick="toggleMenu()">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </header>
+
+    <section class="home">
+        <div class="home-content">
+            <h3>Hi</h3>
+            <h1>I'm <span>Mohammed</span><br>Alsarrawi, From Jordan</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto iure sint distinctio possimus dicta odio repellat, veritatis voluptate excepturi pariatur fugiat doloribus vero. Vero asperiores omnis velit possimus? Nostrum, dicta.</p>
+            <div class="btn-box">
+                <a href="path/to/your/cv.pdf" class="btn-2" download>Download CV</a>
+                <!-- <button class="btn-2">Experience</button> -->
+            </div>
+        </div>
+        <div class="img-box">
+            <img src="sarrawi.jpeg"></div>
+    </section>
+    
+
+    <section class="projects">
+        <h2 class="section-title">My Projects</h2>
+        <div class="card-container">
+            <div class="card">
+                <img src="Screenshot 2024-12-22 164017.png" alt="Project 1">
+                <div class="card-content">
+                    <h3>Wireframe-and-Mockup</h3>
+                    <a href="proj.html" class="btn">View More</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Screenshot 2024-12-22 164336.png" alt="Project 2">
+                <div class="card-content">
+                    <h3>Child-Selector</h3>
+                    <a href="proj.html" class="btn">View More</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Screenshot 2024-12-22 163346.png" alt="Project 3">
+                <div class="card-content">
+                    <h3>Bootstrap-practice</h3>
+                    <a href="proj.html" class="btn">View More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills-section" id="skills">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+            <!-- Left Side: Progress Bars -->
+            <div class="skills-left">
+                <div class="skill">
+                    <span>HTML</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 95%;"></div>
+                    </div>
+                    <span class="percentage">95%</span>
+                </div>
+                <div class="skill">
+                    <span>CSS</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 91%;"></div>
+                    </div>
+                    <span class="percentage">91%</span>
+                </div>
+                <div class="skill">
+                    <span>JavaScript</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 85%;"></div>
+                    </div>
+                    <span class="percentage">85%</span>
+                </div>
+                <div class="skill">
+                    <span>React JS</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 79%;"></div>
+                    </div>
+                    <span class="percentage">79%</span>
+                </div>
+            </div>
+    
+            <!-- Right Side: Circular Indicators -->
+            <div class="skills-right">
+                <div class="circle-skill">
+                    <svg class="circle-svg">
+                        <circle class="bg-circle" cx="50" cy="50" r="45"></circle>
+                        <circle class="progress-circle" cx="50" cy="50" r="45" style="stroke-dashoffset: 72;"></circle>
+                    </svg>
+                    <div class="circle-text">
+                        <span>React</span><br><span>65%</span>
+                    </div>
+                </div>
+                <div class="circle-skill">
+                    <svg class="circle-svg">
+                        <circle class="bg-circle" cx="50" cy="50" r="45"></circle>
+                        <circle class="progress-circle" cx="50" cy="50" r="45" style="stroke-dashoffset: 110;"></circle>
+                    </svg>
+                    <div class="circle-text">
+                        <span>Node</span><br><span>65%</span>
+                    </div>
+                </div>
+                <div class="circle-skill">
+                    <svg class="circle-svg">
+                        <circle class="bg-circle" cx="50" cy="50" r="45"></circle>
+                        <circle class="progress-circle" cx="50" cy="50" r="45" style="stroke-dashoffset: 90;"></circle>
+                    </svg>
+                    <div class="circle-text">
+                        <span>JQuery</span><br><span>85%</span>
+                    </div>
+                </div>
+                <div class="circle-skill">
+                    <svg class="circle-svg">
+                        <circle class="bg-circle" cx="50" cy="50" r="45"></circle>
+                        <circle class="progress-circle" cx="50" cy="50" r="45" style="stroke-dashoffset: 60;"></circle>
+                    </svg>
+                    <div class="circle-text">
+                        <span>CMD</span><br><span>85%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+    
+    <footer class="footer">
+        <div class="social">
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/mohammed-alsarrawi"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <ul class="list">
+            <li>
+                <a href="">FAQ</a>
+            </li>
+            <li>
+                <a href="">Services</a>
+            </li>
+            <li>
+                <a href="">About</a>
+            </li>
+            <li>
+                <a href="">Contact</a>
+            </li>
+            <li>
+                <a href="">Privacy Policy</a>
+            </li>
+        </ul>
+        <p class="copyright">2024 mohammed | All Rights Reserved</p>
+    </footer>
+    <script>
+        function toggleMenu() {
+            const navbar = document.querySelector('.navbar');
+            navbar.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

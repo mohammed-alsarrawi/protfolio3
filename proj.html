@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><span>Moha</span>mmed</a>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="index.html" >Skills</a>
+            <a href="proj.html" class="active">Projects</a>
+        </nav>
+        <a href="contact.html" class="contact">Contact Me</a>
+        <!-- Burger Menu Icon -->
+        <div class="burger-menu" onclick="toggleMenu()">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </header>
+        
+
+
+    <section class="projects">
+        <h2 class="section-title">My Projects</h2>
+        <div class="card-container">
+            <div class="card">
+                <img src="Screenshot 2024-12-22 164017.png" alt="Project 1">
+                <div class="card-content">
+                    <h3>Wireframe-and-Mockup</h3>
+                    <p>This project is part of the Coffee Shop Website initiative, designed to showcase the shop's offerings, enhance customer engagement, and enable online ordering</p>
+                    <a href="https://www.figma.com/design/DkZCin0VjU5jiMrJygd61b/Untitled" class="btn">Open Project</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Screenshot 2024-12-22 164336.png" alt="Project 2">
+                <div class="card-content">
+                    <h3>Child-Selector</h3>
+                    <p>This contains examples of CSS styling and layout techniques, including the use of nth-child, display properties, and background-color for dynamic styling of HTML elements.</p>
+                    <a href="https://github.com/mohammed-alsarrawi/Child-Selector" class="btn">Open Project</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Screenshot 2024-12-22 163346.png" alt="Project 3">
+                <div class="card-content">
+                    <h3>Bootstrap-practice</h3>
+                    <p>Bootstrap Practice is a task focused on learning and applying Bootstrap, a popular front-end framework, to create responsive and visually appealing web designs.</p>
+                    <a href="https://github.com/mohammed-alsarrawi/Bootstrap-practice" class="btn">Open Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="social">
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/mohammed-alsarrawi"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <ul class="list">
+            <li>
+                <a href="">FAQ</a>
+            </li>
+            <li>
+                <a href="">Services</a>
+            </li>
+            <li>
+                <a href="">About</a>
+            </li>
+            <li>
+                <a href="">Contact</a>
+            </li>
+            <li>
+                <a href="">Privacy Policy</a>
+            </li>
+        </ul>
+        <p class="copyright">2024 mohammed | All Rights Reserved</p>
+    </footer>
+    <script>
+        function toggleMenu() {
+            const navbar = document.querySelector('.navbar');
+            navbar.classList.toggle('active');
+        }
+    </script>
+
+</body>
+</html>
